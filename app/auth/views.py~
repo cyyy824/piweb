@@ -1,0 +1,16 @@
+from flask import reder_template
+from . import auth
+
+@auth.route('/login')
+def login():
+    return 
+
+@auth.route('/outlogin')
+def outlogin():
+    return
+
+@auth.register('/register')
+def register():
+    return
+
+
